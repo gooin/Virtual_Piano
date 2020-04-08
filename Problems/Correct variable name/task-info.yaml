@@ -1,0 +1,9 @@
+type: code
+files:
+- name: task.js
+  visible: true
+  text: let 2user-Points = 200;
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8368
+status: Solved
+record: -1

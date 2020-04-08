@@ -1,0 +1,12 @@
+type: code
+files:
+- name: task.js
+  visible: true
+  text: |-
+    console.log("I am learning Java");
+    console.log("I am learning JavaScript");
+    console.log("I am learning C++");
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8174
+status: Solved
+record: -1

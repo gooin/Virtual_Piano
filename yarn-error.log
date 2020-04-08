@@ -1,0 +1,36 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\gooin\bin;C:\Users\gooin\WebstormProjects\Virtual Piano\node_modules\.bin;F:\SuperMap\Apps\supermap-iobjectsdotnet-10.0.1-18027-76100-win64-all-Bin\Bin_x64;C:\Program Files\Autodesk\Revit 2017;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk1.8.0_171\bin;E:\Program Files\Git\cmd;D:\Program Files\Git\cmd;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\apache-maven-3.6.0\bin;D:\Program Files\PostgreSQL\10\bin;D:\Program Files\QGIS 3.4\apps\Python37;C:\Go\bin;C:\Users\gooin\AppData\Roaming\Python\Python37\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Common Files\Autodesk Shared;C:\Users\gooin\AppData\Local\Microsoft\WindowsApps;E:\app_datas\Fiddler;D:\app_datas\Microsoft VS Code\bin;C:\Users\gooin\AppData\Roaming\npm;D:\Program Files\Fiddler;C:\Users\gooin\go\bin;C:\Users\gooin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;F:\Code\flutter\bin;D:\app_datas\AndroidStudio\SDK\tools;D:\app_datas\AndroidStudio\SDK\platform-tools;F:\SuperMap\Apps\supermap-idesktop-10.0.1-40281-win64-bin-zip-chs\Bin;D:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\gooin\.windows-build-tools\python27;C:\Users\gooin\.windows-build-tools\python27;C:\Users\gooin\AppData\Local\Microsoft\WindowsApps;E:\app_datas\Fiddler;D:\app_datas\Microsoft VS Code\bin;D:\Program Files\Fiddler;C:\Users\gooin\go\bin;C:\Users\gooin\AppData\Local\Microsoft\WindowsApps;C:\Users\gooin\AppData\Roaming\npm;C:\Users\gooin\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\gooin\WebstormProjects\Virtual Piano\node_modules\puppeteer\.local-chromium\download-win64-722234.zip'
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "jest": "^23.6.0",
+      "@types/jest": "^23.3.12",
+      "hs-test-web": "https://github.com/hyperskill/hs-test-web/archive/v1.tar.gz",
+      "puppeteer": "^2.0.0"
+    },
+    "scripts": {
+      "test": "jest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

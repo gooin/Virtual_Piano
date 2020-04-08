@@ -1,0 +1,15 @@
+type: code
+files:
+- name: task.js
+  visible: true
+  text: |-
+    const name = "Jessica";
+    let age = 26;
+
+    // сhange the code below
+    console.log();
+    console.log();
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8192
+status: Solved
+record: -1

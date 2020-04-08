@@ -1,0 +1,11 @@
+type: code
+files:
+- name: task.js
+  visible: true
+  text: "// change the code below this line  \nfunction writeSentence() {\n  console.log(city\
+    \ + \" is the capital of \" + country);\n}\n\nwriteSentence(\"London\", \"Great\
+    \ Britain\");"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8394
+status: Solved
+record: -1

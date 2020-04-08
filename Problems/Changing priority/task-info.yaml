@@ -1,0 +1,11 @@
+type: code
+files:
+- name: task.js
+  visible: true
+  text: |-
+    statement = false;
+    console.log(!statement&&false||false);
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8476
+status: Solved
+record: -1

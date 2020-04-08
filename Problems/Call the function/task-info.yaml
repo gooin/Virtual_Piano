@@ -1,0 +1,13 @@
+type: code
+files:
+- name: task.js
+  visible: true
+  text: |-
+    function sayHi() {
+      console.log("Hello");
+    }
+    // Write your code below
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8392
+status: Solved
+record: -1

@@ -1,0 +1,16 @@
+type: code
+files:
+- name: task.js
+  visible: true
+  text: |-
+    let data = 1000;
+
+    function getData(data) {
+      console.log(data);
+    }
+
+    getDetails();
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8569
+status: Solved
+record: -1

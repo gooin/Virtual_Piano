@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="utf-8">
+    <title>Virtual Piano</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+        html, body {
+            font-family: 'Comic Neue', cursive;
+            height: 100vh;
+            background: cadetblue;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+
+        }
+
+        .container {
+            height: 500px;
+            width: 100%;
+            /*border: 1px solid red;*/
+
+        }
+
+
+        .white-keys {
+            vertical-align: top;
+            width: 100%;
+            position: relative;
+            top: 0;
+
+        }
+
+        .black-keys {
+            vertical-align: top;
+            width: 100%;
+            z-index: 2;
+            position: relative;
+            top: 145px;
+            /*border: 1px solid black;*/
+        }
+
+        .white-keys kbd {
+            font-family: 'Comic Neue', cursive;
+            padding: 200px 30px 30px;
+            border: solid darkgrey 3px;
+            background: white;
+            margin-left: -6px;
+            display: inline-block;
+
+
+        }
+
+        .black-keys kbd {
+            font-family: 'Comic Neue', cursive;
+            padding: 90px 20px 30px;
+            border: solid darkgrey 3px;
+            background: black;
+            color: white;
+            margin-left: -6px;
+            position: relative;
+            display: inline-block;
+        }
+
+        #w {
+            left: 45px;
+        }
+
+        #e {
+            left: 60px;
+        }
+
+        #t {
+            left: 157px;
+        }
+
+        #y {
+            left: 180px;
+        }
+
+        #u {
+            left: 200px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+        <div class="black-keys">
+            <kbd id="w">W</kbd>
+            <kbd id="e">E</kbd>
+            <kbd id="t">T</kbd>
+            <kbd id="y">Y</kbd>
+            <kbd id="u">U</kbd>
+        </div>
+        <div class="white-keys">
+            <kbd>A</kbd>
+            <kbd>S</kbd>
+            <kbd>D</kbd>
+            <kbd>F</kbd>
+            <kbd>G</kbd>
+            <kbd>H</kbd>
+            <kbd>J</kbd>
+        </div>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
